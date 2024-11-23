@@ -1,0 +1,12 @@
+{
+  "type": "model-go",
+  "require": {
+    "typehub/typeapi": {
+      "target": "./model",
+      "namespace": "model",
+      "mapping": {
+        "typeschema": "TypeSchema.Model"
+      }
+    }
+  }
+}
