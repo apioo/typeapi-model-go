@@ -5,7 +5,7 @@
       "target": "./model",
       "namespace": "model",
       "mapping": {
-        "typeschema": "TypeSchema.Model"
+        "typeschema": "github.com/apioo/typeschema-model-go/model"
       }
     }
   }

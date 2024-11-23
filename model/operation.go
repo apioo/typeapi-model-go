@@ -9,7 +9,6 @@ type Operation struct {
     Return *Response `json:"return"`
     Security []string `json:"security"`
     Stability int `json:"stability"`
-    Tags []string `json:"tags"`
     Throws []Response `json:"throws"`
 }
 
