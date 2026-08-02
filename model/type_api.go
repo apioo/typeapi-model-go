@@ -2,7 +2,7 @@ package model
 
 import "github.com/apioo/typeschema-model-go/model"
 
-// The TypeAPI Root
+// The root specification object of TypeAPI.
 type TypeAPI struct {
     Definitions map[string]DefinitionType `json:"definitions"`
     Import map[string]string `json:"import"`

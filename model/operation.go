@@ -1,5 +1,6 @@
 package model
 
+// Describes an API endpoint operation.
 type Operation struct {
     Arguments map[string]Argument `json:"arguments"`
     Authorization bool `json:"authorization"`
